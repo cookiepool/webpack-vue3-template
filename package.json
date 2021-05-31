@@ -4,6 +4,8 @@
   "scripts": {
     "dev": "webpack-dev-server --config ./build/webpack.dev.js --progress",
     "build": "webpack --config ./build/webpack.prod.js --progress",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --fix --ext .js,.vue src",
     "prepare": "husky install"
   },
   "devDependencies": {
