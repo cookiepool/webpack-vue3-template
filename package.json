@@ -48,6 +48,6 @@
     "vuex": "^4.0.1"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": "eslint"
   }
 }
